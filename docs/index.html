@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<!-- GitHub Pages: publish the /docs folder on the default branch. -->
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Condo Holding Cost</title>
+  <meta name="description" content="An iPhone app for estimating what it costs to hold a Canadian condo, detached house, or townhouse.">
+  <link rel="stylesheet" href="site.css">
+  <link rel="icon" href="icon.png">
+</head>
+<body>
+  <header class="bar">
+    <a class="brand" href="index.html">
+      <img src="icon.png" alt="">
+      <span data-i18n="brand">Condo Holding Cost</span>
+    </a>
+    <nav>
+      <a href="index.html" data-i18n="nav.product">Product</a>
+      <a href="privacy.html" data-i18n="nav.privacy">Privacy</a>
+      <div class="langs" role="group" aria-label="Language">
+        <button type="button" data-lang="en">EN</button>
+        <button type="button" data-lang="zh">中文</button>
+        <button type="button" data-lang="fr">FR</button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <img class="hero-icon" src="icon.png" alt="">
+      <div>
+        <p class="eyebrow" data-i18n="hero.eyebrow">Canada · iPhone</p>
+        <h1 data-i18n="hero.title">What a home costs after the offer is accepted.</h1>
+        <p class="lede" data-i18n="hero.lede">Condo Holding Cost estimates the carrying cost of a Canadian condo, detached house, or townhouse. A realtor can walk through the numbers with a client. The figures stay on the phone.</p>
+      </div>
+    </section>
+
+    <section>
+      <h2 data-i18n="types.title">Three kinds of home</h2>
+      <div class="grid">
+        <article>
+          <h3 data-i18n="types.condo.title">Condo</h3>
+          <p data-i18n="types.condo.body">Economic holding cost for this year and a year you choose: mortgage interest, property tax, strata, insurance, utilities, a special-levy reserve, and the opportunity cost of cash. Principal is treated as equity, not as a cost. A rental can show tax savings. A principal residence does not deduct those costs each year.</p>
+        </article>
+        <article>
+          <h3 data-i18n="types.detached.title">Detached house</h3>
+          <p data-i18n="types.detached.body">Annual and monthly cash flow the buyer actually pays, including principal. Property tax, water, sewer, garbage, full-building insurance, energy, and a maintenance reserve. A common starting point is about 1% of the price a year, or $1–$2 per square foot, until you replace it with real bills.</p>
+        </article>
+        <article>
+          <h3 data-i18n="types.town.title">Townhouse</h3>
+          <p data-i18n="types.town.body">The same cash flow, plus strata fees and what those fees include: heat, hot water, gas, water, or gardening. A thin contingency reserve raises the special-levy reserve. The owner’s policy is treated as interior, contents, and the building deductible, because the strata often insures the shell.</p>
+        </article>
+      </div>
+    </section>
+
+    <section>
+      <h2 data-i18n="use.title">How to use it</h2>
+
+      <article class="pair">
+        <figure>
+          <img src="images/library.jpg" alt="The home list, with a condo, a detached house, and a townhouse." data-i18n-alt="shot.library.alt">
+          <figcaption data-i18n="shot.library.cap">Each saved home shows a yearly holding cost for a condo, or monthly cash flow for a house. The + button starts a new one.</figcaption>
+        </figure>
+        <div>
+          <h3 data-i18n="use.h1">1. Start from the list</h3>
+          <p data-i18n="use.1">Tap +, then choose a condo, a detached house, or a townhouse.</p>
+          <p data-i18n="use.8">The library stays on the device. Export JSON if you want the same file on another phone.</p>
+        </div>
+      </article>
+
+      <article class="pair">
+        <figure>
+          <img src="images/condo-place.jpg" alt="A condo pinned on Apple Maps in Coal Harbour, with a search field and the Vancouver tax baseline." data-i18n-alt="shot.condo.alt">
+          <figcaption data-i18n="shot.condo.cap">Drop a pin, search a building or postal code, or use your location. The city baseline fills a published residential tax rate. You can still type the tax notice.</figcaption>
+        </figure>
+        <div>
+          <h3 data-i18n="use.h2">2. Place the condo</h3>
+          <p data-i18n="use.2">For a condo, set the place, the price, and either a mortgage or a cash purchase. Check strata, insurance, and utilities.</p>
+          <p data-i18n="features.cash">Turn financing off when the buyer is paying cash.</p>
+        </div>
+      </article>
+
+      <article class="pair">
+        <figure>
+          <img src="images/condo-result.jpg" alt="The 2026 economic holding cost for the condo, with mortgage interest, property tax, and condo fees." data-i18n-alt="shot.result.alt">
+          <figcaption data-i18n="shot.result.cap">Results separate interest from principal. Principal is labeled as equity. Move the year to read a later holding cost, then export a PDF from the toolbar.</figcaption>
+        </figure>
+        <div>
+          <h3 data-i18n="use.h3">3. Read the holding cost</h3>
+          <p data-i18n="use.3">Read this year’s holding cost and a later year. Export the PDF if the client should keep a copy.</p>
+          <p data-i18n="features.rates">Read the Bank of Canada policy rate, prime, the 5-year bond, and the posted 5-year mortgage when the phone is online. A discounted mortgage starts from the bond plus 1.5 percentage points.</p>
+        </div>
+      </article>
+
+      <article class="pair">
+        <figure>
+          <img src="images/house-place.jpg" alt="A detached house at 1288 West Georgia Street, with the map, address, postal code, and Vancouver tax rate." data-i18n-alt="shot.house.alt">
+          <figcaption data-i18n="shot.house.cap">A detached house or townhouse uses the same map, address, and postal-code search. Matched tax, heating degree days, and a townhouse fee are estimates. Editing one of them keeps your number when you search again.</figcaption>
+        </figure>
+        <div>
+          <h3 data-i18n="use.h4">4. Place the house</h3>
+          <p data-i18n="use.4">For a detached house or townhouse, find it on the map, by address, or by postal code. The app fills a tax rate, heating degree days, and a townhouse fee estimate. Change any of those, then enter the tax notice and the last 12 months of bills when you have them.</p>
+          <p data-i18n="use.5">For a townhouse, enter the strata fee, what it includes, the reserve ratio, and the unit count. Read the depreciation report and minutes before you trust a low fee.</p>
+          <p data-i18n="use.6">Mark roof, heating, age, and hazards such as a floodplain, wildfire interface, aluminum wiring, or Poly-B. Use an insurance quote when you have one.</p>
+        </div>
+      </article>
+
+      <article class="pair">
+        <figure>
+          <img src="images/house-cost.jpg" alt="Annual and monthly cash flow for the detached house, including the lender housing cost, GDS, and TDS." data-i18n-alt="shot.cash.alt">
+          <figcaption data-i18n="shot.cash.cap">Cash flow includes principal, tax, water, insurance, energy, and a maintenance reserve. GDS and TDS appear only after you enter income. The 39% and 44% lines are guides, not an approval.</figcaption>
+        </figure>
+        <div>
+          <h3 data-i18n="use.h5">5. Read the cash flow</h3>
+          <p data-i18n="use.7">Read the annual cash flow, the monthly cash flow, and the lender housing cost. Add income only if you want GDS and TDS.</p>
+          <p data-i18n="lender.body">For a detached house or townhouse, the app also shows a monthly housing cost in the shape used for gross debt service: principal and interest, property tax, heat, and half the strata fee. If you enter household income and other monthly debt, it shows GDS and TDS. The stress-test payment uses the contract rate plus 2 percentage points, and at least 5.25%. The often-cited 39% and 44% guides are labels, not an approval.</p>
+          <p data-i18n="features.share">Share a detached or townhouse estimate as text.</p>
+        </div>
+      </article>
+
+      <article class="pair pair-wide">
+        <figure>
+          <img src="images/duo.jpg" alt="A wide screen with agent inputs on the left and the same detached-house result on the right." data-i18n-alt="shot.duo.alt">
+          <figcaption data-i18n="shot.duo.cap">On a wide or folded screen, the agent edits on one side and the client watches the same condo, detached house, or townhouse on the other. The numbers move as the inputs change.</figcaption>
+        </figure>
+        <div>
+          <h3 data-i18n="use.h6">6. Sit with the client</h3>
+          <p data-i18n="features.duo">On a wide or folded screen, one side keeps the inputs and the other side shows the same condo, detached, or townhouse result.</p>
+          <p data-i18n="features.lang">The interface follows the iPhone language: Simplified Chinese, English, or Canadian French.</p>
+        </div>
+      </article>
+    </section>
+
+    <section class="note">
+      <h2 data-i18n="limit.title">What this is not</h2>
+      <p data-i18n="limit.body">It is not a lender, an insurer, an appraiser, or a tax opinion. City tax rates shipped with the app are reference points. Winnipeg’s figure is an effective-rate estimate. Insurance without a quote is a range from house type, roof, and hazards. Energy without bills is a model from floor area, heating degree days, age, and the heating system. Replace those with the tax notice, the strata documents, and the utility bills before you rely on them.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p data-i18n="footer.copy">Estimates for a conversation with a client. Not a commitment to lend.</p>
+    <p><a href="privacy.html" data-i18n="footer.privacy">Privacy</a></p>
+  </footer>
+  <script src="site.js"></script>
+</body>
+</html>
